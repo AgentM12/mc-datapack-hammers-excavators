@@ -1,0 +1,1 @@
+execute unless data entity @s {Item:{components:{"minecraft:custom_data":{HMS_UPGRADE_RESONANT:1}}}} run function hms:crafting/can_infuse_resonance_core

@@ -1,0 +1,7 @@
+{
+    "function": "set_name",
+    "target": "item_name",
+    "name": {
+        "translate": "item.hms.golden_excavator"
+    }
+}

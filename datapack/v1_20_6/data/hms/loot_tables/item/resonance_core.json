@@ -1,0 +1,20 @@
+{
+  "pools":[
+    {
+      "rolls":1,
+      "entries":[
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:recovery_compass",
+          "weight":1,
+          "functions":[
+            {
+              "function": "reference",
+              "name": "hms:resonance_core/set_components"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

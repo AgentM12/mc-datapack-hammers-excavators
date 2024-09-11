@@ -1,0 +1,64 @@
+execute if data entity @s {Item:{id:"minecraft:bell"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:blast_furnace"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:brewing_stand"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:chain"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:conduit"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:dispenser"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:dropper"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:enchanting_table"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:ender_chest"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:furnace"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:grindstone"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:heavy_weighted_pressure_plate"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:hopper"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:iron_bars"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:iron_door"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:iron_trapdoor"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:lantern"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:light_weighted_pressure_plate"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:lightning_rod"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:lodestone"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:observer"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:piston"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:polished_blackstone_button"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:polished_blackstone_pressure_plate"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:redstone_lamp"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:respawn_anchor"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:smoker"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:soul_lantern"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:sticky_piston"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:stone_button"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:stone_pressure_plate"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:stonecutter"}} run tag @s add hms_bound
+
+execute if data entity @s {Item:{id:"minecraft:black_shulker_box"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:blue_shulker_box"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:brown_shulker_box"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:cyan_shulker_box"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:gray_shulker_box"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:green_shulker_box"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:light_blue_shulker_box"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:light_gray_shulker_box"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:lime_shulker_box"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:magenta_shulker_box"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:orange_shulker_box"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:pink_shulker_box"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:purple_shulker_box"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:red_shulker_box"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:shulker_box"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:white_shulker_box"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:yellow_shulker_box"}} run tag @s add hms_bound
+
+execute if data entity @s {Item:{id:"minecraft:anvil"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:chipped_anvil"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:damaged_anvil"}} run tag @s add hms_bound
+
+execute if data entity @s {Item:{id:"minecraft:activator_rail"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:detector_rail"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:powered_rail"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:rail"}} run tag @s add hms_bound
+
+execute if data entity @s {Item:{id:"minecraft:cauldron"}} run tag @s add hms_bound
+
+execute if data entity @s {Item:{id:"minecraft:decorated_pot"}} run tag @s add hms_bound
+execute if data entity @s {Item:{id:"minecraft:brick"}} run tag @s add hms_bound

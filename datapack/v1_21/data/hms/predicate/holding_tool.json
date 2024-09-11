@@ -1,0 +1,16 @@
+{
+    "condition": "minecraft:entity_properties",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "predicates": {
+                    "minecraft:custom_data": {
+                        "HMS_TOOL": true,
+                        "HMS_UPGRADE_RESONANT": false
+                    }
+                }
+            }
+        }
+    },
+    "entity": "this"
+}

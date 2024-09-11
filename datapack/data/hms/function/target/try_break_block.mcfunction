@@ -1,0 +1,2 @@
+execute if entity @e[distance=..7,limit=1,tag=hms_bound_util] if block ~ ~ ~ #hms:utilities if score $HMS_TOOL_UTIL hms_option matches 1 run function hms:target/break_block_util
+execute unless block ~ ~ ~ #hms:utilities run function hms:target/break_block

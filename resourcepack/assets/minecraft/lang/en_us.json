@@ -1,0 +1,52 @@
+{
+  "hms.comment.expand_me": "Feel free to copy all text in this file and translate it to other languages. If you want, provide them to me so I can add them to the official pack download :)",
+
+  "language.name": "English",
+  "language.region": "United States",
+  "language.code": "en_us",
+  
+  "datapack.hms.name": "Vanilla Hammers and Excavators",
+  "datapack.reload.success": "Succesfully (re)loaded %s by %s",
+  "tellraw.format.say": "[%s] %s",
+
+  "text.hms.help.description_label": "Description",
+  "text.hms.help.description": "This is a simple datapack that adds hammers and excavators. These tools allow the player to dig in a 3x3 area of blocks. You can obtain them by combining 2 %s with %s by %s.",
+  "text.hms.help.description.pickaxe_or_shovel": "sticks",
+  "text.hms.help.description.modifier_material": "different types of blocks",
+  "text.hms.help.description.method": "using the crafting table",
+
+  "text.hms.first_reload.description": "Options were set to default! For more info, use: %s",
+
+  "text.hms.options.description.default": "default",
+  "text.hms.options.description.off": "OFF",
+  "text.hms.options.description.on": "ON",
+  "text.hms.help.description.options": "Options for %s",
+
+  "text.hms.options.change_tool_slowdown": "Change Tool Slowdown",
+  "text.hms.options.change_tool_slowdown.description": "Tools infused with %s fully negate the slowdown.",
+  "text.hms.options.break_utility_blocks": "Break Utility Blocks",
+  "text.hms.options.break_utility_blocks.description": "Break things like furnaces, dispensers, etc.",
+
+  "upgrade.hms.resonant": "Resonant",
+
+  "warning.hms.do_tile_drops_off": "Warning! This pack does not work if tile drops are off. Please turn them back on if you want to continue using this pack. (or click this text)",
+
+  "item.hms.wooden_hammer": "Wooden Hammer",
+  "item.hms.stone_hammer": "Stone Hammer",
+  "item.hms.iron_hammer": "Iron Hammer",
+  "item.hms.golden_hammer": "Golden Hammer",
+  "item.hms.diamond_hammer": "Diamond Hammer",
+  "item.hms.netherite_hammer": "Netherite Hammer",
+
+  "item.hms.wooden_excavator": "Wooden Excavator",
+  "item.hms.stone_excavator": "Stone Excavator",
+  "item.hms.iron_excavator": "Iron Excavator",
+  "item.hms.golden_excavator": "Golden Excavator",
+  "item.hms.diamond_excavator": "Diamond Excavator",
+  "item.hms.netherite_excavator": "Netherite Excavator",
+
+  "item.hms.resonance_core": "Resonance Core",
+  "item.hms.resonance_core.description1": "Harmonizes Vibrations",
+  "item.hms.resonance_core.description2": "Throw on a smithing table with a",
+  "item.hms.resonance_core.description3": "large tool to infuse its powers."
+}

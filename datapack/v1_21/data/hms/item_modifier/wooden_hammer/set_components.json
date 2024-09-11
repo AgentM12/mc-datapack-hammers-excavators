@@ -1,0 +1,37 @@
+{
+    "function": "set_components",
+    "components": {
+        "attribute_modifiers": {
+            "show_in_tooltip": false,
+            "modifiers": [
+                {
+                    "id": "hms:wooden_hammer.attack_damage",
+                    "type": "generic.attack_damage",
+                    "operation": "add_value",
+                    "amount": 5,
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "hms:wooden_hammer.attack_speed",
+                    "type": "generic.attack_speed",
+                    "operation": "add_value",
+                    "amount": -3.5,
+                    "slot": "mainhand"
+                }
+            ]
+        },
+        "item_name": "{\"translate\":\"item.hms.wooden_hammer\"}",
+        "custom_model_data": 1,
+        "custom_data": {
+            "HMS_TOOL": true,
+            "HMS_UPGRADE_RESONANT": false,
+            "HMS_TOOL_TYPE": "hammer"
+        },
+        "lore": [
+            "\"\"",
+            "{\"italic\":false,\"translate\":\"item.modifiers.mainhand\",\"color\":\"gray\"}",
+            "[{\"italic\":false,\"text\":\" 6 \",\"color\":\"dark_green\"},{\"italic\":false,\"translate\":\"attribute.name.generic.attack_damage\"}]",
+            "[{\"italic\":false,\"text\":\" 0.5 \",\"color\":\"dark_green\"},{\"italic\":false,\"translate\":\"attribute.name.generic.attack_speed\"}]"
+        ]
+    }
+}

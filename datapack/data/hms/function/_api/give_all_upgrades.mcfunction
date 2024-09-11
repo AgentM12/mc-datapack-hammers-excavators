@@ -1,0 +1,1 @@
+loot give @s loot hms:item/resonance_core

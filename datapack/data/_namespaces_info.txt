@@ -1,0 +1,4 @@
+hms: Hammers and Excavators by AgentM. Core code for the datapack.
+ - "hms\tags\blocks\blacklist\hammer.json": You can add entries here for blocks that should be ignored by the hammers (e.g. Budding Amethyst)
+ - "hms\tags\blocks\blacklist\excavator.json": You can add entries here for blocks that should be ignored by the excavators
+minecraft: load and tick tags for running the datapack; Add additional blocks to mineable/pickaxe and mineable/shovel (inherited by datapack)

@@ -1,0 +1,45 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:anvil",
+    "#minecraft:shulker_boxes",
+    "#minecraft:cauldrons",
+    "#minecraft:rails",
+
+    "#hms:pressure_plates",
+
+    "minecraft:dispenser",
+    "minecraft:dropper",
+    "minecraft:furnace",
+    "minecraft:blast_furnace",
+    "minecraft:smoker",
+    "minecraft:enchanting_table",
+    "minecraft:hopper",
+    "minecraft:observer",
+    "minecraft:brewing_stand",
+    "minecraft:grindstone",
+    "minecraft:stonecutter",
+    "minecraft:sticky_piston",
+    "minecraft:piston",
+
+    "minecraft:bell",
+    "minecraft:lantern",
+    "minecraft:soul_lantern",
+    "minecraft:iron_door",
+    "minecraft:iron_trapdoor",
+    "minecraft:iron_bars",
+    "minecraft:ender_chest",
+    "minecraft:lodestone",
+    "minecraft:respawn_anchor",
+    "minecraft:chain",
+
+    "minecraft:spawner",
+
+    "minecraft:stone_button",
+    "minecraft:polished_blackstone_button",
+    
+    "minecraft:lightning_rod",
+
+    "minecraft:decorated_pot"
+  ]
+}

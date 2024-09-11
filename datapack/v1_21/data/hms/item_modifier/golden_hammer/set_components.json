@@ -1,0 +1,37 @@
+{
+    "function": "set_components",
+    "components": {
+        "attribute_modifiers": {
+            "show_in_tooltip": false,
+            "modifiers": [
+                {
+                    "id": "hms:golden_hammer.attack_damage",
+                    "type": "generic.attack_damage",
+                    "operation": "add_value",
+                    "amount": 4,
+                    "slot": "mainhand"
+                },
+                {
+                    "id": "hms:golden_hammer.attack_speed",
+                    "type": "generic.attack_speed",
+                    "operation": "add_value",
+                    "amount": -3.3,
+                    "slot": "mainhand"
+                }
+            ]
+        },
+        "item_name": "{\"translate\":\"item.hms.golden_hammer\"}",
+        "custom_model_data": 1,
+        "custom_data": {
+            "HMS_TOOL": true,
+            "HMS_UPGRADE_RESONANT": false,
+            "HMS_TOOL_TYPE": "hammer"
+        },
+        "lore": [
+            "\"\"",
+            "{\"italic\":false,\"translate\":\"item.modifiers.mainhand\",\"color\":\"gray\"}",
+            "[{\"italic\":false,\"text\":\" 5 \",\"color\":\"dark_green\"},{\"translate\":\"attribute.name.generic.attack_damage\"}]",
+            "[{\"italic\":false,\"text\":\" 0.7 \",\"color\":\"dark_green\"},{\"translate\":\"attribute.name.generic.attack_speed\"}]"
+        ]
+    }
+}

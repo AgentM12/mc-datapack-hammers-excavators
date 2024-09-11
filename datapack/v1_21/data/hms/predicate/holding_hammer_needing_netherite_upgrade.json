@@ -1,0 +1,39 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "items": "minecraft:netherite_pickaxe",
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "HMS_TOOL_TYPE": "hammer"
+                            }
+                        }
+                    }
+                }
+            },
+            "entity": "this"
+        },
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+                "condition": "minecraft:entity_properties",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "predicates": {
+                                "minecraft:custom_data": {
+                                    "HMS_NETHERITE": {}
+                                }
+                            }
+                        }
+                    }
+                },
+                "entity": "this"
+            }
+        }
+    ]
+}

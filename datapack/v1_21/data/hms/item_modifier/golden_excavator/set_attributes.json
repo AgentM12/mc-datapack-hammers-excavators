@@ -1,0 +1,19 @@
+{
+    "function": "set_attributes",
+    "modifiers": [
+        {
+            "id": "hms:golden_excavator.attack_damage",
+            "attribute": "generic.attack_damage",
+            "operation": "add_value",
+            "amount": 4,
+            "slot": "mainhand"
+        },
+        {
+            "id": "hms:golden_excavator.attack_speed",
+            "attribute": "generic.attack_speed",
+            "operation": "add_value",
+            "amount": -3.2,
+            "slot": "mainhand"
+        }
+    ]
+}

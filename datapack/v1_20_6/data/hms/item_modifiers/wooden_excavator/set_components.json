@@ -1,0 +1,49 @@
+{
+    "function": "set_components",
+    "components": {
+        "attribute_modifiers": {
+            "show_in_tooltip": false,
+            "modifiers": [
+                {
+                    "name": "generic.attack_damage",
+                    "type": "generic.attack_damage",
+                    "operation": "add_value",
+                    "amount": 3,
+                    "slot": "mainhand",
+                    "uuid": [
+                        -1156847190,
+                        -555859319,
+                        -1239411414,
+                        -789518233
+                    ]
+                },
+                {
+                    "name": "generic.attack_speed",
+                    "type": "generic.attack_speed",
+                    "operation": "add_value",
+                    "amount": -3.2,
+                    "slot": "mainhand",
+                    "uuid": [
+                        1338318726,
+                        -178172029,
+                        -1084193839,
+                        2062158641
+                    ]
+                }
+            ]
+        },
+        "item_name": "{\"translate\":\"item.hms.wooden_excavator\"}",
+        "custom_model_data": 1,
+        "custom_data": {
+            "HMS_TOOL": true,
+            "HMS_UPGRADE_RESONANT": false,
+            "HMS_TOOL_TYPE": "excavator"
+        },
+        "lore": [
+            "\"\"",
+            "{\"italic\":false,\"translate\":\"item.modifiers.mainhand\",\"color\":\"gray\"}",
+            "[{\"italic\":false,\"text\":\" 4 \",\"color\":\"dark_green\"},{\"italic\":false,\"translate\":\"attribute.name.generic.attack_damage\"}]",
+            "[{\"italic\":false,\"text\":\" 0.8 \",\"color\":\"dark_green\"},{\"italic\":false,\"translate\":\"attribute.name.generic.attack_speed\"}]"
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+	"parent": "hms:hms_internal/root",
+	"criteria": {
+		"kill_mob": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "hms:killed_mob"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"kill_mob"
+		]
+	],
+	"rewards": {
+		"function": "hms:advancement_rewards/kill_mob"
+	}
+}

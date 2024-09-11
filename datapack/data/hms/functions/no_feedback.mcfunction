@@ -1,0 +1,2 @@
+gamerule sendCommandFeedback false
+schedule function hms:feedback_on 1t

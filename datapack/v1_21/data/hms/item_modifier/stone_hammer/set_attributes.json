@@ -1,0 +1,19 @@
+{
+    "function": "set_attributes",
+    "modifiers": [
+        {
+            "id": "hms:stone_hammer.attack_damage",
+            "attribute": "generic.attack_damage",
+            "operation": "add_value",
+            "amount": 6,
+            "slot": "mainhand"
+        },
+        {
+            "id": "hms:stone_hammer.attack_speed",
+            "attribute": "generic.attack_speed",
+            "operation": "add_value",
+            "amount": -3.5,
+            "slot": "mainhand"
+        }
+    ]
+}

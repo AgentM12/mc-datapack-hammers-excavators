@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values": [
+		"#hms:give_all_hammers",
+		"#hms:give_all_excavators"
+	]
+}

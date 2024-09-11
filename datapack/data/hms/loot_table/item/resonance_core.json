@@ -1,0 +1,48 @@
+{
+  "pools":[
+    {
+      "rolls":1,
+      "entries":[
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:recovery_compass",
+          "weight":1,
+          "functions":[
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.hms.resonance_core",
+                "italic": false,
+                "color": "light_purple"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.hms.resonance_core.description1",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "item.hms.resonance_core.description2",
+                  "color": "dark_gray",
+                  "italic": false
+                },
+                {
+                  "translate": "item.hms.resonance_core.description3",
+                  "color": "dark_gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function":"set_nbt",
+              "tag": "{CustomModelData:1,HMS_MATERIAL_TYPE:\"resonance_core\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

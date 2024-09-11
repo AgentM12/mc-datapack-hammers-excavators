@@ -1,0 +1,22 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+                "nbt": "{Item:{id:\"minecraft:netherite_pickaxe\",components:{\"minecraft:custom_data\":{HMS_TOOL_TYPE:\"hammer\"}}}}"
+            },
+            "entity": "this"
+        },
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+                "condition": "minecraft:entity_properties",
+                "predicate": {
+                    "nbt": "{Item:{components:{\"minecraft:custom_data\":{HMS_NETHERITE:{}}}}}"
+                },
+                "entity": "this"
+            }
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+	"parent": "hms:hms_internal/root",
+	"criteria": {
+		"netherite_upgrade_hammer": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:netherite_pickaxe_smithing",
+				"ingredients": [
+					{
+						"items": "minecraft:diamond_pickaxe",
+						"count": 1,
+						"predicates": {
+							"minecraft:custom_data": {
+								"HMS_TOOL": true
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"netherite_upgrade_hammer"
+		]
+	],
+	"rewards": {
+		"function": "hms:advancement_rewards/netherite_upgrade_hammer"
+	}
+}

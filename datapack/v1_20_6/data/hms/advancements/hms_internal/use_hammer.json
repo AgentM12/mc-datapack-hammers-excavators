@@ -1,0 +1,28 @@
+{
+	"parent": "hms:hms_internal/root",
+	"criteria": {
+		"use_hammer": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "hms:holding_hammer"
+					},
+					{
+						"condition": "reference",
+						"name": "hms:used_pickaxe"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"use_hammer"
+		]
+	],
+	"rewards": {
+		"function": "hms:advancement_rewards/use_hammer"
+	}
+}

@@ -1,0 +1,37 @@
+{
+    "pack": {
+        "description": [
+            {"text":""},
+            {
+                "text": "Vanilla",
+                "color": "#d1bea8"
+            },
+            {
+                "text": " Hammers & Excavators ",
+                "color": "#43b345"
+            },
+            {
+                "text": "MC 1.21",
+                "color": "#02d8e9"
+            },
+            {"text":" by "},
+            {
+                "text": "AgentM",
+                "color": "#ba2464"
+            }
+        ],
+        "pack_format": 16
+    },
+    "overlays": {
+        "entries": [
+            {
+                "formats": [42, 58],
+                "directory": "v1_21"
+            },
+            {
+                "formats": [33, 41],
+                "directory": "v1_20_6"
+            }
+        ]
+    }
+}

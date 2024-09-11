@@ -1,0 +1,28 @@
+{
+	"parent": "hms:hms_internal/root",
+	"criteria": {
+		"use_excavator": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "hms:holding_excavator"
+					},
+					{
+						"condition": "reference",
+						"name": "hms:used_shovel"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"use_excavator"
+		]
+	],
+	"rewards": {
+		"function": "hms:advancement_rewards/use_excavator"
+	}
+}

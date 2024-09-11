@@ -1,0 +1,21 @@
+{
+    "function": "minecraft:set_lore",
+    "mode": "append",
+    "lore": [
+        {
+            "italic": false,
+            "translate": "item.hms.resonance_core.description1",
+            "color": "gray"
+        },
+        {
+            "italic": false,
+            "translate": "item.hms.resonance_core.description2",
+            "color": "dark_gray"
+        },
+        {
+            "italic": false,
+            "translate": "item.hms.resonance_core.description3",
+            "color": "dark_gray"
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:diamond_block"
+    },
+    "|": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " # ",
+    " | ",
+    " | "
+  ],
+  "result": {
+    "id": "minecraft:diamond_shovel",
+    "components": {
+      "attribute_modifiers": {
+        "show_in_tooltip": false,
+        "modifiers": [
+          {
+            "name": "generic.attack_damage",
+            "type": "generic.attack_damage",
+            "operation": "add_value",
+            "amount": 7,
+            "slot": "mainhand",
+            "uuid": [
+              1004814776,
+              -872264577,
+              -1215981105,
+              -354042849
+            ]
+          },
+          {
+            "name": "generic.attack_speed",
+            "type": "generic.attack_speed",
+            "operation": "add_value",
+            "amount": -3.2,
+            "slot": "mainhand",
+            "uuid": [
+              1000043016,
+              340804099,
+              -1149779939,
+              95833491
+            ]
+          }
+        ]
+      },
+      "item_name": "{\"translate\":\"item.hms.diamond_excavator\"}",
+      "custom_model_data": 1,
+      "custom_data": {
+        "HMS_TOOL": true,
+        "HMS_UPGRADE_RESONANT": false,
+        "HMS_TOOL_TYPE": "excavator"
+      },
+      "lore": [
+        "\"\"",
+        "{\"italic\":false,\"translate\":\"item.modifiers.mainhand\",\"color\":\"gray\"}",
+        "[{\"italic\":false,\"text\":\" 8 \",\"color\":\"dark_green\"},{\"italic\":false,\"translate\":\"attribute.name.generic.attack_damage\"}]",
+        "[{\"italic\":false,\"text\":\" 0.8 \",\"color\":\"dark_green\"},{\"italic\":false,\"translate\":\"attribute.name.generic.attack_speed\"}]"
+      ]
+    }
+  }
+}

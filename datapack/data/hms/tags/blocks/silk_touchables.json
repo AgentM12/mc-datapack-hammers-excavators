@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:ice",
+    "#minecraft:impermeable",
+    "#hms:glass_panes",
+    "minecraft:glowstone",
+    "minecraft:sea_lantern",
+    "minecraft:decorated_pot"
+  ]
+}
