@@ -18,7 +18,7 @@
                 [
                     {
                         "italic": false,
-                        "text": " 5 ",
+                        "text": " 10 ",
                         "color": "dark_green"
                     },
                     {
@@ -28,7 +28,7 @@
                 [
                     {
                         "italic": false,
-                        "text": " 0.8 ",
+                        "text": " 0.7 ",
                         "color": "dark_green"
                     },
                     {
@@ -38,16 +38,42 @@
             ]
         },
         {
+            "function": "set_name",
+            "target": "item_name",
+            "name": {
+                "translate": "item.hms.netherite_hammer"
+            }
+        },
+        {
             "function": "set_components",
             "components": {
-                "item_model": "hms:golden_excavator",
+                "attribute_modifiers": {
+                    "show_in_tooltip": false,
+                    "modifiers": [
+                        {
+                            "id": "hms:netherite_hammer.attack_damage",
+                            "type": "attack_damage",
+                            "operation": "add_value",
+                            "amount": 9,
+                            "slot": "mainhand"
+                        },
+                        {
+                            "id": "hms:netherite_hammer.attack_speed",
+                            "type": "attack_speed",
+                            "operation": "add_value",
+                            "amount": -3.3,
+                            "slot": "mainhand"
+                        }
+                    ]
+                },
+                "item_model": "hms:netherite_hammer",
                 "!custom_model_data": {}
             }
         },
         {
             "function": "set_custom_data",
             "tag": {
-                "HMS_VERSION": 1
+                "HMS_NETHERITE": {}
             }
         }
     ]

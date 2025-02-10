@@ -3,10 +3,18 @@
     "functions": [
         {
             "function": "set_lore",
-            "mode": "replace_section",
-            "offset": 2,
-            "size": 2,
+            "mode": "replace_all",
             "lore": [
+                [
+                    ""
+                ],
+                [
+                    {
+                        "italic": false,
+                        "translate": "item.modifiers.mainhand",
+                        "color": "gray"
+                    }
+                ],
                 [
                     {
                         "italic": false,
