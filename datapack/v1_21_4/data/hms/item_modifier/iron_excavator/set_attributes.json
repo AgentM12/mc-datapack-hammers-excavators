@@ -1,0 +1,19 @@
+{
+    "function": "set_attributes",
+    "modifiers": [
+        {
+            "id": "hms:iron_excavator.attack_damage",
+            "attribute": "attack_damage",
+            "operation": "add_value",
+            "amount": 6,
+            "slot": "mainhand"
+        },
+        {
+            "id": "hms:iron_excavator.attack_speed",
+            "attribute": "attack_speed",
+            "operation": "add_value",
+            "amount": -3.2,
+            "slot": "mainhand"
+        }
+    ]
+}

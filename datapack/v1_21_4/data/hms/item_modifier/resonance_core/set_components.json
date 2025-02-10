@@ -1,0 +1,17 @@
+{
+    "function": "set_components",
+    "components": {
+        "item_name": "{\"translate\":\"item.hms.resonance_core\"}",
+        "rarity": "epic",
+        "item_model": "hms:resonance_core",
+        "custom_data": {
+            "HMS_MATERIAL_TYPE": "resonance_core",
+            "HMS_VERSION": 1
+        },
+        "lore": [
+            "{\"italic\":false,\"translate\":\"item.hms.resonance_core.description1\",\"color\":\"gray\"}",
+            "{\"italic\":false,\"translate\":\"item.hms.resonance_core.description2\",\"color\":\"dark_gray\"}",
+            "{\"italic\":false,\"translate\":\"item.hms.resonance_core.description3\",\"color\":\"dark_gray\"}"
+        ]
+    }
+}
