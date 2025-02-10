@@ -1,0 +1,46 @@
+{
+    "function": "sequence",
+    "functions": [
+        {
+            "function": "set_lore",
+            "mode": "replace_section",
+            "offset": 2,
+            "size": 2,
+            "lore": [
+                [
+                    {
+                        "italic": false,
+                        "text": " 5 ",
+                        "color": "dark_green"
+                    },
+                    {
+                        "translate": "attribute.name.attack_damage"
+                    }
+                ],
+                [
+                    {
+                        "italic": false,
+                        "text": " 0.7 ",
+                        "color": "dark_green"
+                    },
+                    {
+                        "translate": "attribute.name.attack_speed"
+                    }
+                ]
+            ]
+        },
+        {
+            "function": "set_components",
+            "components": {
+                "item_model": "hms:golden_hammer",
+                "!custom_model_data": {}
+            }
+        },
+        {
+            "function": "set_custom_data",
+            "tag": {
+                "HMS_VERSION": 1
+            }
+        }
+    ]
+}

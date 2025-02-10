@@ -1,0 +1,47 @@
+{
+    "function": "sequence",
+    "functions": [
+        {
+            "function": "set_lore",
+            "mode": "replace_section",
+            "offset": 2,
+            "size": 2,
+            "lore": [
+                [
+                    {
+                        "italic": false,
+                        "text": " 9 ",
+                        "color": "dark_green"
+                    },
+                    {
+                        "translate": "attribute.name.attack_damage"
+                    }
+                ],
+                [
+                    {
+                        "italic": false,
+                        "text": " 0.8 ",
+                        "color": "dark_green"
+                    },
+                    {
+                        "translate": "attribute.name.attack_speed"
+                    }
+                ]
+            ]
+        },
+        {
+            "function": "set_components",
+            "components": {
+                "item_model": "hms:netherite_excavator",
+                "!custom_model_data": {}
+            }
+        },
+        {
+            "function": "set_custom_data",
+            "tag": {
+                "HMS_NETHERITE": {},
+                "HMS_VERSION": 1
+            }
+        }
+    ]
+}
