@@ -33,8 +33,8 @@ scoreboard players operation $HMS_DO_TILE_DROPS_PREV hms_option = $HMS_DO_TILE_D
 # Slow down tools (always now, use resonance core to disable)
 function hms:player/mining_fatigue
 
-# Upgrade tools
-function hms:crafting/check_all_player_items
+# Fix and Upgrade tools
+execute as @a at @s run function hms:crafting/check_player_items
 execute as @e[type=item,tag=!hms_processed] at @s run function hms:crafting/type_check
 
 execute as @e[type=item,tag=hms_is_hammer,tag=!hms_has_upgrade_resonance] at @s if block ~ ~-1 ~ minecraft:smithing_table run function hms:crafting/try_upgrade_hammer

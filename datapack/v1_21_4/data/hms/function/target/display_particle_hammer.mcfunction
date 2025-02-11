@@ -47,7 +47,6 @@ execute if block ~ ~ ~ minecraft:cracked_deepslate_tiles run particle minecraft:
 execute if block ~ ~ ~ minecraft:cracked_nether_bricks run particle minecraft:block{"block_state":{"Name":"minecraft:cracked_nether_bricks"}} ~ ~ ~ .4 .4 .4 0 50
 execute if block ~ ~ ~ minecraft:cracked_polished_blackstone_bricks run particle minecraft:block{"block_state":{"Name":"minecraft:cracked_polished_blackstone_bricks"}} ~ ~ ~ .4 .4 .4 0 50
 execute if block ~ ~ ~ minecraft:cracked_stone_bricks run particle minecraft:block{"block_state":{"Name":"minecraft:cracked_stone_bricks"}} ~ ~ ~ .4 .4 .4 0 50
-execute if block ~ ~ ~ minecraft:crimson_nylium run particle minecraft:block{"block_state":{"Name":"minecraft:crimson_nylium"}} ~ ~ ~ .4 .4 .4 0 50
 execute if block ~ ~ ~ minecraft:crying_obsidian run particle minecraft:block{"block_state":{"Name":"minecraft:crying_obsidian"}} ~ ~ ~ .4 .4 .4 0 50
 execute if block ~ ~ ~ minecraft:cut_copper run particle minecraft:block{"block_state":{"Name":"minecraft:cut_copper"}} ~ ~ ~ .4 .4 .4 0 50
 execute if block ~ ~ ~ minecraft:cut_copper_slab run particle minecraft:block{"block_state":{"Name":"minecraft:cut_copper_slab"}} ~ ~ ~ .4 .4 .4 0 50
@@ -256,7 +255,6 @@ execute if block ~ ~ ~ minecraft:terracotta run particle minecraft:block{"block_
 execute if block ~ ~ ~ minecraft:tinted_glass run particle minecraft:block{"block_state":{"Name":"minecraft:tinted_glass"}} ~ ~ ~ .4 .4 .4 0 50
 execute if block ~ ~ ~ minecraft:tube_coral_block run particle minecraft:block{"block_state":{"Name":"minecraft:tube_coral_block"}} ~ ~ ~ .4 .4 .4 0 50
 execute if block ~ ~ ~ minecraft:tuff run particle minecraft:block{"block_state":{"Name":"minecraft:tuff"}} ~ ~ ~ .4 .4 .4 0 50
-execute if block ~ ~ ~ minecraft:warped_nylium run particle minecraft:block{"block_state":{"Name":"minecraft:warped_nylium"}} ~ ~ ~ .4 .4 .4 0 50
 execute if block ~ ~ ~ minecraft:waxed_copper_block run particle minecraft:block{"block_state":{"Name":"minecraft:waxed_copper_block"}} ~ ~ ~ .4 .4 .4 0 50
 execute if block ~ ~ ~ minecraft:waxed_cut_copper run particle minecraft:block{"block_state":{"Name":"minecraft:waxed_cut_copper"}} ~ ~ ~ .4 .4 .4 0 50
 execute if block ~ ~ ~ minecraft:waxed_cut_copper_slab run particle minecraft:block{"block_state":{"Name":"minecraft:waxed_cut_copper_slab"}} ~ ~ ~ .4 .4 .4 0 50

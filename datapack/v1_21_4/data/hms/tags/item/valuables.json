@@ -1,0 +1,23 @@
+{
+    "values": [
+        "minecraft:ancient_debris",
+        "minecraft:coal_block",
+        "minecraft:diamond_block",
+        "minecraft:emerald_block",
+        "minecraft:gold_block",
+        "minecraft:iron_block",
+        "minecraft:lapis_block",
+        "minecraft:netherite_block",
+        "minecraft:raw_gold_block",
+        "minecraft:raw_iron_block",
+        "minecraft:redstone_block",
+        "minecraft:coal",
+        "minecraft:diamond",
+        "minecraft:emerald",
+        "minecraft:gold_nugget",
+        "minecraft:lapis_lazuli",
+        "minecraft:raw_gold",
+        "minecraft:raw_iron",
+        "minecraft:redstone"
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "values": [
+        "#minecraft:terracotta",
+        "#minecraft:walls",
+        "#hms:amethyst",
+        "#hms:concrete",
+        "#hms:copper",
+        "#hms:coral",
+        "#hms:glass_panes",
+        "#hms:glass",
+        "#hms:glazed_terracotta",
+        "#hms:hard_slabs",
+        "#hms:hard_stairs",
+        "#hms:ice",
+        "#hms:ores",
+        "#hms:prismarine",
+        "#hms:quartz",
+        "#hms:stones",
+        "#hms:valuables",
+        
+        "minecraft:glowstone",
+        "minecraft:glowstone_dust",
+        
+        "minecraft:magma_block",
+        "minecraft:nether_brick_fence",
+        "minecraft:netherrack",
+        "minecraft:obsidian",
+        "minecraft:crying_obsidian",
+        
+        "minecraft:bone_block",
+        "minecraft:packed_mud",
+        "minecraft:purpur_block",
+        "minecraft:purpur_pillar",
+
+        "minecraft:bricks",
+        "minecraft:chiseled_nether_bricks",
+        "minecraft:cracked_nether_bricks",
+        "minecraft:mud_bricks",
+        "minecraft:nether_bricks",
+        "minecraft:red_nether_bricks",
+        "minecraft:chiseled_resin_bricks",
+        "minecraft:resin_bricks"
+    ]
+}
