@@ -37,7 +37,11 @@
                 "directory": "v1_21_4"
             },
             {
-                "formats": [62, 9999],
+                "formats": [66, 9999],
+                "directory": "v1_21_5"
+            },
+            {
+                "formats": [67, 9999],
                 "directory": "v1_unknown"
             }
         ]
