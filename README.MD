@@ -31,8 +31,9 @@ If all else fails, contact me, maybe there's a bug in the pack.
 ## HAMMERS VANILLA DATAPACK - MADE BY AGENTM ##
 YT CHANNEL LINK: https://www.youtube.com/c/AgentMOfficial
 
-Latest update for 1.21: https://www.youtube.com/watch?v=-Yp97YwJ4Pg
+Latest update for 1.21.5: https://www.youtube.com/watch?v=[[[TBD]]]
 
+Update for 1.21.X: https://www.youtube.com/watch?v=-Yp97YwJ4Pg
 Update for 1.20.6: https://www.youtube.com/watch?v=TmECitGZe_g
 Update for 1.20.X: https://www.youtube.com/watch?v=8AlrZpd8kK8
 Update for 1.19.X: https://www.youtube.com/watch?v=XhtUTGxBu9s
@@ -47,7 +48,19 @@ French/France (fr_fr.json): @WaxenSs
 
 ## CHANGE LOG/FEATURE LIST ##
 
-### 1.21 Update ###
+### 1.21.5 Update ###
+ * Currently in progress!
+
+### 1.21.4 Update ###
+ + All 1.21.4 block support
+ + Auto-Fixer for tools to newer version of the pack
+   * Runs when player picks up this pack's items
+ * Update pack version to 61
+   * Use better performance commands for items
+ * Fix/Improve upgrading tools to netherite
+ * KNOWN MC BUG: Destroying decorated pots with a hammer would not drop the correct loot, therefore this has been disabled temporarily.
+
+### 1.21.X Update ###
  + All 1.21 block support
  * Update pack version to 48
    * Fix names of folders to new pluralization.
@@ -58,9 +71,9 @@ French/France (fr_fr.json): @WaxenSs
  - Reduced attack damage of hammers, as they were too powerful.
 
  KNOWN ISSUES:
- * Upgrading a hammer to netherite does not add 1 attack damage. Due to limitations with datapacks, this is not easy to fix.
+ * Upgrading a hammer to netherite does not add 1 attack damage. Due to limitations with datapacks, this is not easy to fix. (Fixed in 1.21.4)
  * Still possible that killing a mob might trigger a tool's action in multiplayer.
- * Upgrading from previous version of pack might break existing tools and will not attempt to upgrade them or their traits.
+ * Upgrading from previous version of pack might break existing tools and will not attempt to upgrade them or their traits. (Fixed in 1.21.4)
 
 ### 1.20.6 Update ###
  + Crafting Hammers and Excavators can now be done directly from the crafting table
@@ -70,7 +83,6 @@ French/France (fr_fr.json): @WaxenSs
  * Using /random to create rng instead of loot tables.
  - Old way to craft hammers and excavators removed.
  - Removed bunch of old and unncessary files.
-
 
 ### 1.20.X Update ###
  + All 1.20 block support
@@ -115,8 +127,8 @@ French/France (fr_fr.json): @WaxenSs
 
 Known 'bugs/exploits/limitations' I won't fix (unless Mojang makes it easier for me to fix):
  * You can still mine a block of stone surrounded by obsidian or similar using a diamond or netherite hammer to mine it super quick.
+   * Theoretically can be fixed by using macros and the block ID/tag to test if the block has the same type/hardness
  * Mining an enderchest without silk touch will not affect enderchests around it. Since obsidian also drops from mining obsidian, I'd rather not mess with that.
-
 
 ### 1.16.X Update ###
  + Netherite Hammers.

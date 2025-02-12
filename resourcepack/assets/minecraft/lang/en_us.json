@@ -30,6 +30,7 @@
   "upgrade.hms.resonant": "Resonant",
 
   "warning.hms.do_tile_drops_off": "Warning! This pack does not work if tile drops are off. Please turn them back on if you want to continue using this pack. (or click this text)",
+  "warning.hms.update_pack": "[Hammers and Excavators] Warning: This pack is only tested up until data version %s (MC Version: 1.%s.%s) and might not work for any future versions. Please check for updates here: ",
 
   "item.hms.wooden_hammer": "Wooden Hammer",
   "item.hms.stone_hammer": "Stone Hammer",
