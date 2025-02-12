@@ -1,0 +1,32 @@
+{
+    "function": "sequence",
+    "functions": [
+        {
+            "function": "set_lore",
+            "mode": "insert",
+            "offset": 0,
+            "lore": [
+                [
+                    {
+                        "italic": false,
+                        "translate": "upgrade.hms.resonant",
+                        "color": "gray"
+                    }
+                ]
+            ]
+        },
+        {
+            "function": "set_components",
+            "components": {
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:rarity": "rare"
+            }
+        },
+        {
+            "function": "set_custom_data",
+            "tag": {
+                "HMS_UPGRADE_RESONANT": 1
+            }
+        }
+    ]
+}

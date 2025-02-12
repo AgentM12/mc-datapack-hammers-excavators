@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:diamond_block",
+    "|": "minecraft:stick",
+    "=": "minecraft:diamond"
+  },
+  "pattern": [
+    "#=#",
+    " | ",
+    " | "
+  ],
+  "result": {
+    "id": "minecraft:diamond_pickaxe",
+    "components": {
+      "attribute_modifiers": {
+        "show_in_tooltip": false,
+        "modifiers": [
+          {
+            "id": "hms:diamond_hammer.attack_damage",
+            "type": "attack_damage",
+            "operation": "add_value",
+            "amount": 8,
+            "slot": "mainhand"
+          },
+          {
+            "id": "hms:diamond_hammer.attack_speed",
+            "type": "attack_speed",
+            "operation": "add_value",
+            "amount": -3.3,
+            "slot": "mainhand"
+          }
+        ]
+      },
+      "item_name": "{\"translate\":\"item.hms.diamond_hammer\"}",
+      "item_model": "hms:diamond_hammer",
+      "custom_data": {
+        "HMS_TOOL": true,
+        "HMS_UPGRADE_RESONANT": false,
+        "HMS_TOOL_TYPE": "hammer",
+        "HMS_VERSION": 1
+      },
+      "lore": [
+        "\"\"",
+        "{\"italic\":false,\"translate\":\"item.modifiers.mainhand\",\"color\":\"gray\"}",
+        "[{\"italic\":false,\"text\":\" 9 \",\"color\":\"dark_green\"},{\"translate\":\"attribute.name.attack_damage\"}]",
+        "[{\"italic\":false,\"text\":\" 0.7 \",\"color\":\"dark_green\"},{\"translate\":\"attribute.name.attack_speed\"}]"
+      ]
+    }
+  }
+}

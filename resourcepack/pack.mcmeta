@@ -20,6 +20,16 @@
                 "color": "#ba2464"
             }
         ],
-        "pack_format": 34
+        "pack_format": 16,
+        "supported_formats": [16, 46]
+    },
+    "overlays": {
+        "entries": [
+            {
+                "formats": [44, 9999],
+                "directory": "v1_21_4"
+            }
+        ]
+    }
     }
 }

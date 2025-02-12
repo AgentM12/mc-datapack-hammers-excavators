@@ -1,0 +1,22 @@
+{
+    "values": [
+        "#hms:concrete_powder",
+        "#minecraft:dirt",
+        "minecraft:clay_ball",
+        "minecraft:clay",
+        "minecraft:flint",
+        "minecraft:grass_block",
+        "minecraft:gravel",
+        "minecraft:mud",
+        "minecraft:muddy_mangrove_roots",
+        "minecraft:mycelium",
+        "minecraft:podzol",
+        "minecraft:red_sand",
+        "minecraft:sand",
+        "minecraft:snow_block",
+        "minecraft:snow",
+        "minecraft:snowball",
+        "minecraft:soul_sand",
+        "minecraft:soul_soil"
+    ]
+}

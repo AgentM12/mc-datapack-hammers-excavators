@@ -26,5 +26,7 @@ scoreboard players add $HMS_TOOL_UTIL hms_option 0
 # Redisplay warnings
 scoreboard players set $HMS_DO_TILE_DROPS_PREV hms_option 1
 
-# CONSTANTS
+# CONSTANTS [ 1.21.4 data version 61 ]
 scoreboard players set $HMS_VERSION hms_option 21
+scoreboard players set $HMS_VERSION_MINOR hms_option 4
+scoreboard players set $HMS_DATA_VERSION hms_option 61

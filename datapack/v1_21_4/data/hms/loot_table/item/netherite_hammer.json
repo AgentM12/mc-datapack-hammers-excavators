@@ -1,0 +1,20 @@
+{
+  "pools":[
+    {
+      "rolls":1,
+      "entries":[
+        {
+          "type":"item",
+          "name":"minecraft:netherite_pickaxe",
+          "weight":1,
+          "functions":[
+            {
+              "function":"reference",
+              "name": "hms:netherite_hammer/set_components"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "#minecraft:netherite_tool_materials",
+  "base": "minecraft:diamond_shovel",
+  "result": {
+    "count": 1,
+    "id": "minecraft:netherite_shovel",
+    "components": {
+      "minecraft:custom_model_data": {
+        "strings": [
+          "hms:upgraded_to_netherite"
+        ]
+      }
+    }
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}

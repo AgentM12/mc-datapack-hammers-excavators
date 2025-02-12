@@ -1,0 +1,18 @@
+{
+    "function": "sequence",
+    "functions": [
+        {
+            "function": "set_components",
+            "components": {
+                "item_model": "hms:resonance_core",
+                "!custom_model_data": {}
+            }
+        },
+        {
+            "function": "set_custom_data",
+            "tag": {
+                "HMS_VERSION": 1
+            }
+        }
+    ]
+}

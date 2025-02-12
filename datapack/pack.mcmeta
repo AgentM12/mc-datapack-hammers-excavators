@@ -20,17 +20,26 @@
                 "color": "#ba2464"
             }
         ],
-        "pack_format": 16
+        "pack_format": 16,
+        "supported_formats": [16, 61]
     },
     "overlays": {
         "entries": [
             {
-                "formats": [42, 58],
-                "directory": "v1_21"
+                "formats": [33, 9999],
+                "directory": "v1_20_6"
             },
             {
-                "formats": [33, 41],
-                "directory": "v1_20_6"
+                "formats": [42, 9999],
+                "directory": "v1_21_3"
+            },
+            {
+                "formats": [59, 9999],
+                "directory": "v1_21_4"
+            },
+            {
+                "formats": [62, 9999],
+                "directory": "v1_unknown"
             }
         ]
     }
