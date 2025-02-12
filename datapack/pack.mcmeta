@@ -20,7 +20,8 @@
                 "color": "#ba2464"
             }
         ],
-        "pack_format": 16
+        "pack_format": 16,
+        "supported_formats": [16, 61]
     },
     "overlays": {
         "entries": [
